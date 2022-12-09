@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+/* container for individual videos */
+.homepage1_video {
+    padding-bottom: 3rem;
+    /* position relative to position wacth later and download icons absolute to the right*/
+    position: relative;
+}
+
+/* make video relative to position video duration on it */
 .video {
     position: relative;
 }
@@ -20,9 +28,7 @@
     border-radius: 5px;
 }
 
-.homepage1_video {
-    padding-bottom: 3rem;
-}
+/* flex the three videos in each three sections on a single line */
 
 .homepage1_video_container {
     display: flex;
@@ -33,24 +39,30 @@
     padding-bottom: 0.7rem;
 }
 
-.homepage1_container_info {
+/* style video title, author, views, watch later and download container */
+.homepage1_video_container_info {
     display: flex;
-    gap:8rem;
+    gap:6rem;
     padding-top: 0.7rem;
 }
-.bottom_video_title_stats {
+
+.homepage1_video_title_stats {
    line-height: 1.5;
 }
 
-.bottom_video_title {
+.homepage1_video_title {
     font-size: 17px;
     font-weight: 540;
 }
 
-.bottom_video_stats {
-     font-size: 11px;
+.homepage1_video_stats {
+    font-size: 11px;
 }
 
-.bottom_video_action_icons {
+.homepage1_video_action_icons_container {
+    position: absolute;
+    right: 0;
+}
+.download {
     padding-left: 0.7rem;
 }
