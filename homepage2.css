@@ -39,8 +39,19 @@ a {
     padding-bottom: 1rem;
     border-bottom: 2px solid white;
 }
+.menu_icon {
+    border: 1.9px solid black;
+    border-radius: 10px;
+    padding: 0.4rem 0.3rem;
 
-.menu_item:active {
+}
+.menu_icon:active {
+    background-color: #0560FA;
+}
+.trend_icon {
+    padding: 0.5rem 0.4rem;
+}
+.menu_word:active {
     color: #0560FA;
 }
 
@@ -48,7 +59,6 @@ a {
     margin-left: 246px;
     padding-top: 1rem;
     padding-left: 4rem;
-    /* font-family: 'Roboto', sans-serif; */
 }
 
 .top_container {
@@ -107,14 +117,11 @@ a {
 .video_action_icons_container {
     display: flex;
     position: absolute;
-    right: 4rem;
+    right: 2.7rem;
 }
 .video_action {
-    margin-left: 0.7rem;
+    margin-left: 2rem;
     text-align: center;
-}
-.video_action_icons {
-    padding-right: 1rem
 }
 
 .action {
@@ -154,8 +161,9 @@ a {
     right: 0;
 }
 
-.bottom_video_action_icons {
-    padding-left: 
-    
+.download {
+    padding-left: 0.7rem;
+
 }
+
 

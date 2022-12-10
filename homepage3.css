@@ -40,6 +40,11 @@ body, html {
     right: 0;
 }
 
+.homepage3_video_action {
+    margin-left: 1rem;
+    text-align: center;
+}
+
 .homepage3_action {
     font-size: 9px;
 }
