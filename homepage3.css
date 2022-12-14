@@ -22,8 +22,10 @@ body, html {
 .video_container_info {
     padding-left: 1rem;
     display: flex;
+    align-items: center;
     position: relative;
     padding-top: 0.5rem;
+    
 }
 
 .video_title {
